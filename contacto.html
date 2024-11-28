@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contacto</title>
+</head>
+<body id="cont">
+    <header>
+        <nav class="barra-nav">
+            <ul>
+                <li><a href="/index.html#Inicio">Inicio</a></li>
+                <li><a href="/index.html#Curiosidades">Curiosidades</a></li>
+                <li><a href="/index.html#LaCartaMásCara">La Carta Más Cara</a></li>
+                <li><a href="/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+        <fieldset>
+            <div class="box"></div>
+            <div>
+                <label for="Nombre"><h3> Nombre: </h3> </label>
+                <input id="Nombre" name="Nombre" placeholder="Nombre/s" required><br>
+            </div>
+            <hr>
+            <div class="apellido">
+                <label for="Apellido"><h3> Apellido: </h3> </label>
+                <input id="Apellido" surname="Apellido" placeholder="Apellidos/s" required> <br>
+            </div>
+            <hr>
+            <div class="email">
+                <label for="Email"><h3> Correo Electronico: </h3></label>
+                <input type="Email" id="Email" name="Email" placeholder="Texto de ejemplo@gmail.com" requiered><br>
+            </div>
+            <hr>
+            <div class="telefono">
+                <label for="telefono"><h3>Numero de Celular: </h3></label>
+                <input type="tel" id="telefono" name="telefono" placeholder="ej +1 356 984 856" required> <br>
+            </div>
+            <hr>
+            <div class="comentario">
+                <label for="comentario"> <h3>Motivo del contacto</h3></label>
+                <textarea id="comentario" name="comentario" rows="5" cols="40" placeholder="Escribe tu motivo aquí" required></textarea> <br>
+            </div>
+            <hr>
+        </fieldset>
+        <div class="botones">
+        <button type="submit" class="enviar">Enviar</button>
+        <button type="reset" class="limpiar">Borrar Todo</button>
+        </div>
+    </form>
+    </main>
+    <footer>
+    <hr>
+    <p class="copyright"> ©CopyRight 2024 Argentina <br> Developed by Lau </p>
+    </footer>
+</body>
+</html>
+

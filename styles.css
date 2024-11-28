@@ -1,0 +1,289 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: auto;
+    padding: auto;
+    background-color: #000;
+    color: #fcfeff;
+}
+.tituloyugi {
+    text-align: center;
+    color: #ce0000;
+}
+.title {
+    font-size: 2rem;
+    text-align: center;
+    animation: aparecerDesaparecer 2s infinite;
+}
+@keyframes aparecerDesaparecer {
+    0%, 25% , 100% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 5;
+    }
+}
+header {
+    background-color: rgb(59, 55, 55);
+    padding: 1px;
+}
+.barra-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+.barra-nav li {
+    margin: 0 15px;
+}
+.barra-nav a {
+    color: rgb(18, 123, 131);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+main {
+    padding: 20px;
+}
+.Exodia-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.Exodia-container img {
+    flex-shrink: 0;
+    width: 350px;
+    height: 500px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.Exodia-container p {
+    flex: 1;
+    text-align: justify;
+    color: rgba(0, 224, 86, 0.897);
+    margin: 0;
+    padding: 10px;
+    line-height: 1.5;
+    max-width: 800px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+/* CURIOSIDADES */
+.Curiosidades1 {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2rem;
+    color: rgb(64, 7, 155);
+}
+.comparacion-imagen{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.comparacion-imagen img{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+.curiosidades-texto{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: justify;
+    padding-top: 20px;
+    color: #fcfeff;
+}
+/* CARTA TYLER */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ff0000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(216, 49, 49, 0.719);
+    background-color: #ffa257;
+}
+
+.card img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card-h4 h4 {
+    font-size: 16px;
+    text-align: justify;
+    margin: 0;
+    color: #000;
+}
+
+/*DIFERENCIA */
+.card2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #59ff53;
+    border-radius: 10px;
+    box-shadow: 0 5px 9px rgb(106, 165, 77);
+    background-color: #bbb4b4;
+}
+.card2 img {
+    width: 100%;
+    max-width: 900px;
+    height: 500px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.card-h4 h4 {
+    font-size: 16px;
+    text-align: justify;
+    margin: 0;
+    color: #000000bb;
+}
+/*LA CARTA MÁS CARA*/
+#La-Carta-Más-Cara {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+.title-mascara {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fd995f;
+}
+.expensive-card img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.lacarta h4 {
+    font-size: 18px;
+    color: #ece90d;
+    text-align: center;
+    line-height: 1.5;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+/* Estilo general para el cuerpo y el fondo */
+#cont {
+    font-family: Arial, sans-serif;
+    background-color: #13d42dcb;
+    margin: 0;
+    padding: 0;
+}
+/* Barra de navegación */
+nav.barra-nav {
+    background-color: #333; /* va un fondo oscuro */
+    padding: 10px;
+    text-align: center;
+}
+nav.barra-nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav.barra-nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+nav.barra-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+nav.barra-nav ul li a:hover {
+    color: #4CAF50;
+}
+/* Estilo para el formulario */
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Estilo para los elementos del formulario */
+form fieldset {
+    border: none;
+    padding: 0;
+}
+form label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+}
+form input:focus, form textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.2);
+}
+/* Estilo para la parte de lo que son los botones */
+form .botones {
+    text-align: center;
+}
+form button {
+    background-color: #4CAF50; /* Ponerle un fondo de color(? */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin: 5px;
+}
+form button:hover {
+    background-color: #cff10a; /* sirve para poner el fondo de un color cuando se pasa el mouse por el buttom */
+}
+/* Estilo para lo que es la parte del pie de la pagina */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+footer .copyright {
+    font-size: 14px;
+}
